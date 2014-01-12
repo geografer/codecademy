@@ -1,0 +1,23 @@
+var user = prompt('Do you want to play the sequel? ').toLowerCase();
+var level = prompt('Are you an advanced user or beginner'); 
+if(user || level){
+    console.log('do something'); 
+    } else {
+        return true; 
+    }
+switch(user){
+    case 'yes':
+        console.log('let the games began');
+        break; 
+    case 'no':
+        console.log('you must be scared'); 
+       break;
+    case "I don't know": 
+        console.log('make up your mind already'); 
+        break;
+    default:
+        console.log('move along, this is not the place for you'); 
+}
+if(user && level) {
+    console.log('something happens here'); 
+    }
